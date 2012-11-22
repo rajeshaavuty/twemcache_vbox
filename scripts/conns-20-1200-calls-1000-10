@@ -1,0 +1,25 @@
+
+Total: connections 1200 requests 12000 responses 12000 test-duration 59.963 s
+
+Connection rate: 20.0 conn/s (50.0 ms/conn <= 1 concurrent connections)
+Connection time [ms]: avg 11.3 min 9.5 max 50.4 stddev 2.24
+Connect time [ms]: avg 0.0 min 0.0 max 4.7 stddev 0.17
+
+Request rate: 200.1 req/s (5.0 ms/req)
+Request size [B]: avg 157.0 min 157.0 max 157.0 stddev 0.00
+
+Response rate: 200.1 rsp/s (5.0 ms/rsp)
+Response size [B]: avg 8.0 min 8.0 max 8.0 stddev 0.00
+Response time [ms]: avg 1.8 min 0.2 max 40.3 stddev 0.00
+Response time [ms]: p25 1.0 p50 1.0 p75 2.0
+Response time [ms]: p95 4.0 p99 5.0 p999 8.0
+Response type: stored 12000 not_stored 0 exists 0 not_found 0
+Response type: num 0 deleted 0 end 0 value 0
+Response type: error 0 client_error 0 server_error 0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 ftab-full 0 addrunavail 0 other 0
+
+CPU time [s]: user 1.59 system 24.63 (user 2.7% system 41.1% total 43.7%)
+Net I/O: bytes 1.9 MB rate 32.2 KB/s (0.3*10^6 bps)
+
