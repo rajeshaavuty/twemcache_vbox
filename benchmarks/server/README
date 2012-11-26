@@ -1,0 +1,7 @@
+1. The files in this directory containt the information
+about cpu usage on server. The file name indicate the request
+rates generated from the client.
+Files are named as CONN-RATE_NUM-CONNS_REQ-RATE_NUM-REQS.txt
+Ex. 60_3600_1000_10.txt file contains cpu usage data on server
+for the requests generated at client at 60 connectons/s, 3600 total
+connections at 1000 requests/s, with 10 requests per connection in total.

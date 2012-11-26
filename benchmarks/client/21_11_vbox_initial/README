@@ -1,0 +1,4 @@
+1. The files contained in this directory are the output on
+client side. It contains information about the number of
+connections per second and the latency observed on the
+client side.
