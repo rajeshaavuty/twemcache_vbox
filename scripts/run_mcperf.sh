@@ -5,7 +5,7 @@ NUM_CALLS=$2
 CONN_RATE=$3
 NUM_CONNS=$4
 
-mcperf -s 192.168.56.102 -l 0 -R $CALL_RATE -N $NUM_CALLS \
+mcperf -s 192.168.2.15 -l 0 -t 10 -R $CALL_RATE -N $NUM_CALLS \
 -r $CONN_RATE -n $NUM_CONNS -z d128 \
 2>&1 | tee conns-$CONN_RATE-$NUM_CONNS-calls-$CALL_RATE-$NUM_CALLS
 
